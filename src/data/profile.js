@@ -1,0 +1,18 @@
+export const profile = {
+  name: 'Adarsh Singh', title: 'Senior Backend Engineer, Payments', email: 'adarshsinghiilm@gmail.com', linkedin: 'https://www.linkedin.com/in/adarsh-singh-dev/', github: 'https://github.com/Adarsh007singh/adarsh_portfolio', locations: 'Noida · Gurugram · Delhi', workMode: 'On-site / Hybrid / Remote', experience: 'Jun 2022 – Present', company: 'Akonto Payment Solutions Pvt Ltd, Noida', education: 'B.Tech Computer Engineering, Accurate Institute of Management, Greater Noida (2019–2023)',
+  projects: [
+    { title: 'Payment gateway integrations', category: 'FinTech', service: 'payment orchestration', status: 'IN PRODUCTION', statusTone: 'success', description: 'Connected 50+ INR and international gateways with signing, callbacks, status APIs, logs, and production-safe flows.', impact: 'Reliable routing across merchant payment journeys.', tech: ['Node.js', 'PHP', 'Webhooks'] },
+    { title: 'Bulk payout API', category: 'Backend', service: 'payout infrastructure', status: 'IN PRODUCTION', statusTone: 'success', description: 'Built a bulk payout API where teams can upload a CSV file and process up to 100 transactions with validation, wallet deduction, status tracking, callbacks, failure handling, and reconciliation support.', impact: 'Made batch payout processing faster and more controlled.', tech: ['Node.js', 'CSV upload', 'Redis', 'MySQL'] },
+    { title: 'Telegram transaction bot', category: 'Automation', service: 'operations automation', status: 'IN PRODUCTION', statusTone: 'success', description: 'Created an internal bot for real-time transaction status lookup and faster support workflows.', impact: 'Reduced manual dashboard dependency for queries.', tech: ['PHP', 'Telegram API', 'MySQL'] },
+    { title: 'Merchant console modules', category: 'Backend', service: 'full-stack product surface', status: 'IN PRODUCTION', statusTone: 'success', description: 'Designed transaction filters, gateway success ratios, chargeback analytics, and admin workflows for payment teams.', impact: 'Clearer operational visibility at a glance.', tech: ['React', 'REST APIs', 'ApexCharts'] },
+    { title: 'Redis + MySQL optimization', category: 'FinTech', service: 'performance engineering', status: 'IN PRODUCTION', statusTone: 'success', description: 'Improved queries, indexing, and caching for payment APIs handling frequent status checks and heavy load.', impact: 'Lower database pressure on critical paths.', tech: ['MySQL', 'Redis', 'Indexing'] },
+    { title: 'CI/CD deployment flow', category: 'Backend', service: 'delivery infrastructure', status: 'IN PRODUCTION', statusTone: 'success', description: 'Worked with Docker deployments, Jenkins pipelines, Linux servers, AWS EC2, and Kubernetes exposure.', impact: 'More predictable production release handling.', tech: ['Docker', 'Jenkins', 'AWS'] },
+  ],
+  stack: [
+    { name: 'Backend', skills: [['Node.js', 'daily'], ['Java', 'projects'], ['PHP', 'daily'], ['Express.js', 'daily'], ['MySQL', 'daily']] },
+    { name: 'APIs & payments', skills: [['REST APIs', 'daily'], ['Webhooks', 'daily'], ['JWT / OAuth', 'projects'], ['Postman', 'daily']] },
+    { name: 'Data', skills: [['Redis', 'daily'], ['SQL optimization', 'projects'], ['Reconciliation', 'projects'], ['ApexCharts', 'projects']] },
+    { name: 'Infra', skills: [['AWS EC2', 'projects'], ['Docker', 'projects'], ['Jenkins', 'projects'], ['Linux', 'daily']] },
+    { name: 'Frontend', skills: [['React', 'projects'], ['Axios', 'projects'], ['Tailwind CSS', 'projects'], ['ApexCharts', 'projects']] },
+  ],
+};
