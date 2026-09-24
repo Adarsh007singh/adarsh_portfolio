@@ -11,7 +11,7 @@ function randomTransaction() {
   return { id: `txn_${Math.random().toString(36).slice(2, 9)}`, amount, currency: Math.random() > 0.35 ? 'INR' : 'USD', status };
 }
 
-function Navbar() { return <nav className="site-nav"><div className="shell nav-inner"><a className="display brand" href="#top">Adarsh Singh<span>/</span></a><div className="nav-links">{['Flow', 'Projects', 'Stack', 'Experience', 'Contact'].map((item) => <a key={item} href={`#${item.toLowerCase()}`}>{item}</a>)}</div><a className="mono nav-status" href={`mailto:${profile.email}`}><span /> Available for work</a></div></nav>; }
+function Navbar() { return <nav className="site-nav"><div className="shell nav-inner"><a className="display brand" href="#top">Adarsh Singh<span>/</span><small>Payments Engineer</small></a><div className="nav-links">{['Flow', 'Projects', 'Stack', 'Experience', 'Contact'].map((item) => <a key={item} href={`#${item.toLowerCase()}`}>{item}</a>)}</div><a className="mono nav-status" href={`mailto:${profile.email}`}><span /> Available for work</a></div></nav>; }
 
 function TransactionFeed() {
   const [transactions, setTransactions] = useState(() => Array.from({ length: 6 }, randomTransaction));
